@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-light {
+  background-color: white;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+}
+
+.image {
+  height: 124px;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 30px;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-dark {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 48px;
+  }
+}
